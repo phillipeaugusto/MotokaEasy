@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+    </PropertyGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\MotokaEasy.Core\MotokaEasy.Core.csproj" />
+      <ProjectReference Include="..\MotokaEasy.Domain\MotokaEasy.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

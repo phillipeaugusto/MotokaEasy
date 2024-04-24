@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotokaEasy.Domain", "MotokaEasy.Domain\MotokaEasy.Domain.csproj", "{558412F0-8702-46CC-B751-95DE2D5200B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotokaEasy.Core", "MotokaEasy.Core\MotokaEasy.Core.csproj", "{2D3538FB-0A1E-4FDA-BF60-E5BF99A59D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotokaEasy.Application", "MotokaEasy.Application\MotokaEasy.Application.csproj", "{348FE0EA-2286-4CB8-8E6C-93F76C6A0D45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotokaEasy.Infrastructure", "MotokaEasy.Infrastructure\MotokaEasy.Infrastructure.csproj", "{9850629C-097C-4BF0-857D-D7755089841E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotokaEasy.Consumers", "MotokaEasy.Consumers\MotokaEasy.Consumers.csproj", "{7FD37FA9-3BF3-40E9-B2D8-827FE494925B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotokaEasy.API", "MotokaEasy.API\MotokaEasy.API.csproj", "{530B42D8-550C-442C-AC8E-5DD2F6CDC065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotokaEasy.Tests", "MotokaEasy.Tests\MotokaEasy.Tests.csproj", "{A06883B2-9135-4740-8268-EEEE72E31816}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{558412F0-8702-46CC-B751-95DE2D5200B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558412F0-8702-46CC-B751-95DE2D5200B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558412F0-8702-46CC-B751-95DE2D5200B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558412F0-8702-46CC-B751-95DE2D5200B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3538FB-0A1E-4FDA-BF60-E5BF99A59D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3538FB-0A1E-4FDA-BF60-E5BF99A59D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3538FB-0A1E-4FDA-BF60-E5BF99A59D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3538FB-0A1E-4FDA-BF60-E5BF99A59D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348FE0EA-2286-4CB8-8E6C-93F76C6A0D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348FE0EA-2286-4CB8-8E6C-93F76C6A0D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348FE0EA-2286-4CB8-8E6C-93F76C6A0D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348FE0EA-2286-4CB8-8E6C-93F76C6A0D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9850629C-097C-4BF0-857D-D7755089841E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9850629C-097C-4BF0-857D-D7755089841E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9850629C-097C-4BF0-857D-D7755089841E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9850629C-097C-4BF0-857D-D7755089841E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD37FA9-3BF3-40E9-B2D8-827FE494925B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD37FA9-3BF3-40E9-B2D8-827FE494925B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD37FA9-3BF3-40E9-B2D8-827FE494925B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD37FA9-3BF3-40E9-B2D8-827FE494925B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530B42D8-550C-442C-AC8E-5DD2F6CDC065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530B42D8-550C-442C-AC8E-5DD2F6CDC065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530B42D8-550C-442C-AC8E-5DD2F6CDC065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530B42D8-550C-442C-AC8E-5DD2F6CDC065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A06883B2-9135-4740-8268-EEEE72E31816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A06883B2-9135-4740-8268-EEEE72E31816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A06883B2-9135-4740-8268-EEEE72E31816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A06883B2-9135-4740-8268-EEEE72E31816}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

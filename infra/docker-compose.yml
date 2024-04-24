@@ -1,0 +1,53 @@
+version: '3.7'
+
+services:
+  postgres_new:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: motokaeasy_db
+      POSTGRES_USER: motokaeasy_user
+      POSTGRES_PASSWORD: motokaeasy_password
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+  
+  localstack:
+    image: localstack/localstack:s3-latest
+    ports:
+      - "127.0.0.1:4566:4566"
+    environment:
+      - DEBUG=${DEBUG:-0}
+    volumes:
+      - "${LOCALSTACK_VOLUME_DIR:-./volume}:/var/lib/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+  memcached:
+    image: memcached:alpine
+    ports: 
+      - "11211:11211"
+
+  redis:
+    image: redis
+    restart: always
+    container_name: 'redis'
+    ports:
+      - "6379:6379" 
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    restart: always
+    container_name: 'rabbitmq'
+    ports:
+        - 5672:5672
+        - 15672:15672
+    volumes:
+        - ~/.docker-conf/rabbitmq/data/:/var/lib/rabbitmq/
+        - ~/.docker-conf/rabbitmq/log/:/var/log/rabbitmq
+    networks:
+        - rabbitmq-net     
+volumes:
+  pg_data:
+
+networks:
+  rabbitmq-net:
+    driver: bridge 
